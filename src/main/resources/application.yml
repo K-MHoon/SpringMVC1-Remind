@@ -1,0 +1,11 @@
+server:
+    port: 8081
+
+
+#전체 로그 레벨 설정(info)
+# 하위 로그 레벨 = debug
+logging:
+    level:
+        root: info
+    hello:
+        springmvc: debug
