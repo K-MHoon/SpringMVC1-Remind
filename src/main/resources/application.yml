@@ -9,3 +9,9 @@ logging:
         root: info
     hello:
         springmvc: debug
+
+# Thymeleaf 설정
+spring:
+    thymeleaf:
+        prefix: classpath:/templates/
+        suffix: .html
