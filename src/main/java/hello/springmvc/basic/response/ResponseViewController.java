@@ -14,6 +14,11 @@ public class ResponseViewController {
         return mav;
     }
 
+    /**
+     * ResponseBody가 없기 때문에, 뷰 리졸버를 실행하여 뷰를 찾고, 렌더링 함.
+     * @param model
+     * @return
+     */
     @RequestMapping("/response-view-v2")
     public String responseViewV2(Model model) {
         model.addAttribute("data", "hello!!");
